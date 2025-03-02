@@ -5,6 +5,8 @@ import 'repositories/country_repository.dart';
 import 'screens/home_screen.dart';
 
 void main() {
+  // In main.dart, disable excessive logs:
+  debugPrint = (String? message, {int? wrapWidth}) {};
   runApp(MyApp());
 }
 

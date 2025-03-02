@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('African Countries2')),
+      appBar: AppBar(title: Text('African Countries')),
       body: BlocBuilder<CountryBloc, CountryState>(
         builder: (context, state) {
           if (state is CountryLoading) {
